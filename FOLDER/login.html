@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>login</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body style="background:url(pictures/bank1.jpg) no-repeat center">
+<div class="header">
+<div class="inner-header">
+<div class="logo"><a>State Bank Of India</a></div>
+<div class="header-link"><a class=header-link" href="#">Home</a></div>
+<div class="header-link"><a href="#">Login</a></div>
+<div class="header-link"><a href="signup.html">Signup</a></div>
+<div class="header-link"><a href="#">Contact us</a></div>
+</div>
+</div>
+<!--content start-->
+<div class="container">
+<div class="row">
+<div class="col-xs-2 col-xs-offset-5">
+<form action="/login">
+<div class="form-group"> 
+<h2>USERTYPE:</h2>
+<select name="usertype" class="form-control">
+<option value="admin">Admin</option>
+<option value="user">User</option>
+</select>
+<h2>USERNAME:</h2><input type="text" class="form-control" name="username"></div>
+<div class="form-group">
+<h2>PASSWORD:</h2><input type="text" class="form-control" name="password"></div>
+<button type="submit" class="btn-primary btn-lg active" href="AfterLogin.html">LOGIN</button>
+</form>
+</div>
+</div>
+</div>        
+        
+            
+<footer class="navbar-fixed-bottom">
+<div class="foot">
+<p>Do not share your internet banking username/password or Credit/Debit Card number/CVV/OTP via e-mail 
+
+or over the phone
+iMPORTANT : State Bank of India never asks for your user id/password/pin no. through phone 
+
+call/SMSes/e-mails. Please do not respond to any such phone call/SMSes/e-mails. Any such phone 
+
+calls/SMSes/E-mails asking you to reveal your login credentials or One Time Password through SMS could 
+
+be an attempt to withdraw money from your account. NEVER NEVER share these details to anyone. State 
+
+bank of India wants you to be secure.if you come across any such instances please inform us.</p>
+</div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
